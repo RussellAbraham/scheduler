@@ -9,8 +9,9 @@ const useVisualMode = (initial) => {
       setHistory(prev => prev.slice(0, -1));
       setHistory(prev => [...prev, mode]);
       } else {
-        setHistory(prev => [...prev, mode]); 
+        setHistory(prev => [...prev, mode]);         
       }
+
   }
 
   function back(){
